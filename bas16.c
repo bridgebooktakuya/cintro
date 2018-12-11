@@ -18,12 +18,13 @@ int main(){
  while( scanf("%s %s", c.employees[i].name, c.employees[i].email) != EOF){
   i++;
 };
+int employeeNum = i;
 
  printf("CEOの名前: %s\n",  c.ceo.name);
  printf("CEOのアドレス: %s\n", c.ceo.email);
  printf("\n");
 
- for(i = 0; i < 5; i++){
+ for(i = 0; i < employeeNum; i++){
    printf("名前: %s\n",  c.employees[i].name);
    printf("アドレス: %s\n", c.employees[i].email);
    printf("\n");

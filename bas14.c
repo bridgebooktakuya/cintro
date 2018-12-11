@@ -17,8 +17,9 @@ int i = 0;
   i++;
  };
 
+int itemNum = i;
 
- for(i = 0; i < 5; i++){
+ for(i = 0; i < itemNum; i++){
    printf("商品コード: %s\n",  items[i].code);
    printf("商品名: %s\n", items[i].name);
    printf("値段: %d\n", items[i].price);
